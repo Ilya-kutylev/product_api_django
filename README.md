@@ -38,8 +38,8 @@ cd product_api_django
 - Creating and activating a virtual environment, installing dependencies.
 ```bash
 pip install pipenv
-pipenv shell
 pipenv install
+pipenv shell
 ```
 - Perform migrations before launching the web application. For the web application to work correctly, you must create a super user.
 ```bash
